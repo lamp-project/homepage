@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: lamp-project/lamp-reader
-          branch: master
+          ref: master
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup node env
