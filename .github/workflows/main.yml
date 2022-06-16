@@ -17,7 +17,7 @@ jobs:
         with:
           repository: lamp-project/lamp-reader
           ref: master
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.DEPLOY_TOKEN }}
 
       - name: Setup node env
         uses: actions/setup-node@v2.1.2
