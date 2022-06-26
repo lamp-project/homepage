@@ -1,0 +1,7 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
