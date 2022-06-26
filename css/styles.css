@@ -1,7 +1,56 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+}
+
+a {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
   margin: 0;
 }
