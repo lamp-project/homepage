@@ -1,7 +1,7 @@
 name: Build Lamp Reader App
 
 env:
-  API_URL: https://backend.lamp-reader.derock.ir/app
+  API_URL: https://backend.lamp-reader.derock.ir
 
 on: [workflow_dispatch]
 
