@@ -1,7 +1,7 @@
 name: Build Lamp Reader App
 
 env:
-  API_URL: https://backend.lamp-reader.derock.ir
+  API_URL: https://backend.lamp-reader.com
 
 on: [workflow_dispatch]
 
@@ -40,4 +40,4 @@ jobs:
           publish_dir: ./dist
           publish_branch: main
           destination_dir: app
-          cname: lamp-reader.derock.ir
+          cname: lamp-reader.com
